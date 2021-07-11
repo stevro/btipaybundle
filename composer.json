@@ -10,7 +10,7 @@
     "symfony bundle btipay banca transilvania"
   ],
   "license": [
-    "GPL"
+    "GPL-3.0"
   ],
   "require": {
     "php": ">=5.4",
