@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Stev\\BTIPayBundle\\\\": ""
+      "Stev\\BTIPayBundle\\": ""
     }
   },
   "config": {
