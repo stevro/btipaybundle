@@ -1,0 +1,4 @@
+services:
+#    stev_bti_pay.example:
+#        class: Stev\BTIPayBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

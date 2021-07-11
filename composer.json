@@ -1,0 +1,31 @@
+{
+  "name": "stev/btipay-bundle",
+  "description": "Symfony 2 Bundle for BT IPay of Banca Transilvania",
+  "type": "symfony-bundle",
+  "authors": [{
+    "name": "Stefan Matei",
+    "email": "stev.matei@gmail.com"
+  }],
+  "keywords": [
+    "symfony bundle btipay banca transilvania"
+  ],
+  "license": [
+    "GNU"
+  ],
+  "require": {
+    "php": ">=5.4",
+    "symfony/framework-bundle": "2.7.*",
+    "symfony/symfony": "2.7.*",
+    "stevro/btipay": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Stev\\BTIPayBundle\\\\": ""
+    }
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
