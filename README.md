@@ -3,7 +3,7 @@ Symfony 2 Bundle for BT IPay of Banca Transilvania
 
 # install
 <pre><code>
-composer require stevro/btipaybundle
+composer require stev/btipay-bundle
 </code></pre>
 
 #configuration
