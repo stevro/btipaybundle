@@ -25,6 +25,9 @@ class StevBTIPayExtension extends Extension
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.yml');
 
+        if(!isset($config['username']) || !isset($config['password'])){
+            throw new \RuntimeException('Username and password are mandatory configs for Stev\BTIPayBundle');
+        }
 
         $container->setParameter('stev_bti_pay.username', $config['username']);
         $container->setParameter('stev_bti_pay.password', $config['password']);
