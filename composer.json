@@ -16,7 +16,7 @@
     "php": ">=5.4",
     "symfony/framework-bundle": "2.7.*|2.8.*",
     "symfony/symfony": "2.7.*|2.8.*",
-    "stevro/btipay": "dev-master"
+    "stev/btipay": "dev-master"
   },
   "autoload": {
     "psr-4": {
