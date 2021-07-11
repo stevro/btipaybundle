@@ -1,4 +1,7 @@
 services:
-#    stev_bti_pay.example:
-#        class: Stev\BTIPayBundle\Example
-#        arguments: ["@service_id", "plain_value", "%parameter%"]
+  stev_btipay.factory:
+    class: Stev\BTIPayBundle\Services\BTIPayFactory
+    arguments: ['%stev_bti_pay.username%','%stev_bti_pay.password%', '%stev_bti_pay.isTest%']
+  stev_btipay.client:
+    class: Stev\BTIPay
+    factory: 'stev_btipay.factory:initClient'
