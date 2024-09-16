@@ -1,7 +1,7 @@
 services:
-  stev_btipay.factory:
+  Stev\BTIPayBundle\Services\BTIPayFactory:
     class: Stev\BTIPayBundle\Services\BTIPayFactory
     arguments: ['%stev_bti_pay.username%','%stev_bti_pay.password%', '%stev_bti_pay.isTest%']
-  stev_btipay.client:
+  Stev\BTIPay:
     class: Stev\BTIPay
     factory: 'stev_btipay.factory:initClient'
