@@ -2,4 +2,4 @@ services:
   Stev\BTIPayBundle\Services\BTIPayFactory:
     arguments: ['%stev_bti_pay.username%','%stev_bti_pay.password%', '%stev_bti_pay.isTest%']
   Stev\BTIPayClient:
-    factory: ['@Stev\BTIPayBundle\Services\BTIPayFactory","initClient']
+    factory: ['@Stev\BTIPayBundle\Services\BTIPayFactory','initClient']
