@@ -1,5 +1,5 @@
 # btipaybundle
-Symfony 2 Bundle for BT IPay of Banca Transilvania
+Symfony 6/7 Bundle for BT IPay of Banca Transilvania
 
 # install
 <pre><code>
