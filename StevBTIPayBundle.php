@@ -4,6 +4,6 @@ namespace Stev\BTIPayBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class StevBTIPayBundle extends AbstractBundle
+class StevBTIPayBundle extends Bundle
 {
 }
