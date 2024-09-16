@@ -15,11 +15,8 @@ stev_bti_pay:
     isTest: true
 </code></pre>
 #usage
-In a controller you can get the BTIPayClient from the container as:
-<pre><code>
-/** @var BTIPayClient $btiPay */ 
-$btiPay = $this->get('stev_btipay.client');
-</code></pre>
+In a controller you can get the BTIPayClient from the container as by injecting class Stev\BTIPay
+
 
 #Code samples
 For examples check https://github.com/stevro/btipay
