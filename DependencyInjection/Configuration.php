@@ -15,10 +15,10 @@ class Configuration implements ConfigurationInterface
     /**
      * {@inheritdoc}
      */
-    public function getConfigTreeBuilder()
+    public function getConfigTreeBuilder(): TreeBuilder
     {
-        $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('stev_bti_pay');
+        $treeBuilder = new TreeBuilder('stev_bti_pay');
+        $rootNode = $treeBuilder->getRootNode();
 
         $rootNode
             ->children()
